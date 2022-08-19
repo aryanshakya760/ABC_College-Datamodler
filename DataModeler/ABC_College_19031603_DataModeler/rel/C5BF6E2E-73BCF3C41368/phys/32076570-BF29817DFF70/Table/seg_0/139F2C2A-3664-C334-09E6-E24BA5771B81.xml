@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Department" directorySegmentName="seg_0" id="139F2C2A-3664-C334-09E6-E24BA5771B81">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Depart_Name" id="4276A120-BF0B-D0B5-5B09-2A9AFA3C2A9B">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Depart_ID" id="B72C70DB-1893-83E4-414C-38181652AFF7">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Department_PK" id="0834D1DC-9F1A-E570-DBCD-BF8F8ECC6EAE">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

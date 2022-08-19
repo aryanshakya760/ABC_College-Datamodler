@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2EBB7FF-E2F2-65F3-20A3-A7D820FFF046" name="Payment">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 09:05:02 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pay_ID" id="EA7F566A-9EC2-405D-70FF-125ECDDBE6BA">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 09:07:08 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pay_Amount" id="A07CEE69-4368-39F0-549A-54D4329FF180">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 09:07:08 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pay_Date" id="B55E57F8-F40E-2B99-94E2-576D0F6FA6ED">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 09:07:08 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0018612-408B-93C4-2C2D-F69CE76BA758" name="Payment_PK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 09:07:08 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA7F566A-9EC2-405D-70FF-125ECDDBE6BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

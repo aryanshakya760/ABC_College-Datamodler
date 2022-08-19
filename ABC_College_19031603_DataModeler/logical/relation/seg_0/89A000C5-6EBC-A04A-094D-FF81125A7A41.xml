@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Payment_ID_FK" directorySegmentName="seg_0" id="89A000C5-6EBC-A04A-094D-FF81125A7A41">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>FFB0F52A-39CE-817C-4F19-59F1FF81BA8F</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<sourcePk>B7881060-85C8-651C-98B6-BF979CB1E642</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>26EAE073-FF8E-6D6E-9254-1B51AEAFB93E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>03EBD4C4-32D6-A06A-16E8-0E272C292E04</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

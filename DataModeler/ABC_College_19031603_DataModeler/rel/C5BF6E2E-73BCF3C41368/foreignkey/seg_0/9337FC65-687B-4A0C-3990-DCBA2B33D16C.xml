@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9337FC65-687B-4A0C-3990-DCBA2B33D16C" containerWithKeyObject="A0445779-7105-35A3-9FF7-3C902A20491F" localFKIndex="9E3E7046-7F28-1BC2-D1FE-33CB64A18151" name="Grade_FK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-17 11:17:23 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<referredTableLongName>Grade</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DCA13DE7-61AD-CC16-23D3-390CB047A102</referredTableID>
+<keyObject>3BE8D845-C52F-97AF-72D3-E803A1967690</keyObject>
+<referredKeyID>3BE8D845-C52F-97AF-72D3-E803A1967690</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Grade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1A78D64-34EE-233F-479E-62CA31C041A6" name="Student">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:42:22 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="S_ID" id="A172F44D-64A1-8E72-1438-D3F0B585D935">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:46:43 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="S_Name" id="AFDA7686-C5D1-C165-4879-A8EB8AE7FA8E">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:46:43 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="S_Address" id="7872508D-E3D3-EC86-DCC0-69413E3A0FC2">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:46:43 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9AB7B7B-AB55-DA69-B737-2C95B462BDE4" name="Student_PK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:46:43 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A172F44D-64A1-8E72-1438-D3F0B585D935"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

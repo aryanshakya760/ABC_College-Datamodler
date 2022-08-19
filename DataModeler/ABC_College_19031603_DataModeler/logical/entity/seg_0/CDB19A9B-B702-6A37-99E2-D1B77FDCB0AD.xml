@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDB19A9B-B702-6A37-99E2-D1B77FDCB0AD" name="Assignment">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>D26079EF-5472-050B-0519-F77B3DDCA329</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Assign ID" id="152F8646-8F55-9D42-B497-2F43066AEF52">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>F511D5D6-17B3-2417-7BEF-A71C47DC061A</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Assign Type" id="3F7E5456-1038-E9E5-4A93-C129134C2731">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>7EB55719-806B-164C-B0BA-F7E7F8896EC0</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66CCC771-A37E-DBA1-F4F2-514108AAB2F9" name="Assignment PK">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>470D73AF-1F0D-4684-29F1-5E8423875753</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>152F8646-8F55-9D42-B497-2F43066AEF52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

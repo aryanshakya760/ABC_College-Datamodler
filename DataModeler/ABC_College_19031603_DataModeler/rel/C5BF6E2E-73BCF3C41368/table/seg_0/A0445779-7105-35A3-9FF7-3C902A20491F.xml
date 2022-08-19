@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0445779-7105-35A3-9FF7-3C902A20491F" name="Assign_Mod_Std_Grade">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:58:40 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Assign_ID" id="F3A7CA34-C23F-3F94-02B1-2947421252C5">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 08:01:09 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00A26C4B-ED05-FC83-7157-04A02F9A1F21" referredColumn="F511D5D6-17B3-2417-7BEF-A71C47DC061A"/>
+</associations>
+</Column>
+<Column name="M_Code" id="18ADE634-0D65-D722-78FF-1DCE3ABDAD07">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 08:01:09 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DB0E7CB-8E16-E5DC-AF37-654B0B7802F0" referredColumn="8C86ADC5-D28A-5C4A-57A5-C1CDBE877AB4"/>
+</associations>
+</Column>
+<Column name="S_ID" id="5F21E5A8-8867-6A87-77DC-515677438326">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 08:01:09 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74C78AD5-96D9-353D-E3C2-FF09C33BE9C2" referredColumn="A172F44D-64A1-8E72-1438-D3F0B585D935"/>
+</associations>
+</Column>
+<Column name="Grade" id="410F4CBC-466D-0014-765D-3A933EA7FBF4">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-17 11:16:11 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9337FC65-687B-4A0C-3990-DCBA2B33D16C" referredColumn="FB394C2B-5A9E-2D2F-F9D6-1F5ABA009674"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59607D81-209E-A84D-FACA-43FDECCEF234" name="Assign_M_S_PK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-17 13:23:43 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3A7CA34-C23F-3F94-02B1-2947421252C5"/>
+<colUsage columnID="18ADE634-0D65-D722-78FF-1DCE3ABDAD07"/>
+<colUsage columnID="5F21E5A8-8867-6A87-77DC-515677438326"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E65F562-025A-87AF-B6A4-1C77A0273F68" name="Assign_ID_FK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 08:01:50 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3A7CA34-C23F-3F94-02B1-2947421252C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0970755-5800-4BE1-23D0-0C80731D5928" name="M_Code_FK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 08:01:50 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18ADE634-0D65-D722-78FF-1DCE3ABDAD07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBFD9AFE-3A1C-9BF6-C93E-9C5E270AEBDE" name="S_ID_FK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 08:01:50 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F21E5A8-8867-6A87-77DC-515677438326"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E3E7046-7F28-1BC2-D1FE-33CB64A18151" name="Grade_FK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-17 11:17:23 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="410F4CBC-466D-0014-765D-3A933EA7FBF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

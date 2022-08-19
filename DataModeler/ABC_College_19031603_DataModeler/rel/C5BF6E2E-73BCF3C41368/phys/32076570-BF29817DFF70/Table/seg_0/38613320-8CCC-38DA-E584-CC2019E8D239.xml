@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Student_Module" directorySegmentName="seg_0" id="38613320-8CCC-38DA-E584-CC2019E8D239">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="M_Code" id="4597F2C1-2277-5AB7-0E24-49502EC4748A">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Attendance" id="9680F498-124A-984C-00F7-ADE945B91FE6">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="S_ID" id="A34E3CFC-C8BE-2A3B-75F2-D4109F469539">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Student_FK" id="28B20C7B-DF8C-5A32-42FD-0848EE923F05">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Module_FK" id="6EB03C69-8A6E-6752-C0E9-318995506802">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Student_Module_PK" id="128CBA4D-3750-8A6B-9FC6-C2E10B6E8DE4">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

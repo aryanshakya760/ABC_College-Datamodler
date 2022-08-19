@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35FB183A-13CD-22DF-E252-F9FE72C52455" name="Address">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>E6F23724-0BC6-4AD1-CB7B-ED8C94444F3B</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Add ID" id="31C4DDB2-73D8-E9A4-213C-F6C46CD056A6">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>4622A84B-6059-AE19-24D4-60EF540AD8F2</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Add Name" id="19ED6320-231F-94CB-87DE-257B9C817CEB">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>6B680AE5-768B-74D4-7185-6ADBF38F316C</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T ID" id="AD4B5FFA-0CD7-6696-DE2D-6DF4682B1628">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>740FE334-AF81-EF95-179C-A606D9C40328</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<referedAttribute>0EC54C0F-D50B-E873-5F7C-98FDE7CA8D8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B56D35DA-D0E1-C7E3-CD23-5FF51B08C49A" name="Address PK">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>FB19335B-67F5-49AD-A69C-4A5218C6A98C</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>31C4DDB2-73D8-E9A4-213C-F6C46CD056A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CF2103E-C71E-96D4-1543-D90724B42C95" name="Assign Mod Std Grade">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>A0445779-7105-35A3-9FF7-3C902A20491F</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Assign ID" id="568F484F-60DA-5477-7F50-78878C0728C9">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>ECE83503-AF4F-2CAC-05B3-3FB809AE1852</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<referedAttribute>152F8646-8F55-9D42-B497-2F43066AEF52</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="M Code" id="3091F0E1-1BA3-93F0-1736-1BE9439FFDCF">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>F4E1389C-FB9A-9D27-5A54-7037846800A0</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<referedAttribute>53F5B738-96C1-1898-256A-10991C4851E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="S ID" id="CEE5281E-B983-64E3-0894-3F9C120F8F8E">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>0A75F46C-F6FC-CFC7-68C2-84C0441B495A</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<referedAttribute>C1881677-D91F-7284-0610-92CDDF866116</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grade" id="DF14852E-FF5D-15A6-E575-714855F67B28">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>9D793C95-ABDB-1DDF-AC60-304C34E9029A</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<referedAttribute>965F2FCF-8937-A53A-85EA-DE3C8514A21C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="359AFBC0-24E1-A085-3854-0FB45C2F1D8B" name="Assign M S PK">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>59607D81-209E-A84D-FACA-43FDECCEF234</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>568F484F-60DA-5477-7F50-78878C0728C9</attributeRef>
+<attributeRef>3091F0E1-1BA3-93F0-1736-1BE9439FFDCF</attributeRef>
+<attributeRef>CEE5281E-B983-64E3-0894-3F9C120F8F8E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

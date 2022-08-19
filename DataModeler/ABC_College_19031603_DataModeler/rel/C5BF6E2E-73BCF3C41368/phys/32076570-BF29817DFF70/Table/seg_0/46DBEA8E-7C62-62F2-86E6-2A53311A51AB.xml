@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Student_Payment" directorySegmentName="seg_0" id="46DBEA8E-7C62-62F2-86E6-2A53311A51AB">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Pay_ID" id="291B2FE5-0B92-2CA8-E162-F26CAEC6877F">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="S_ID" id="93BE24C0-5D40-DA05-C33C-0F18E1A6ADE7">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Payment_ID_FK" id="416CEBFA-6970-D9C1-34B2-6CEC0474658D">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Student_ID_FK" id="B5218522-2703-8902-DBDA-78845DEDB0B9">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Student_Payment_PK" id="99553D56-C64C-D7F8-46F6-5758F7669777">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

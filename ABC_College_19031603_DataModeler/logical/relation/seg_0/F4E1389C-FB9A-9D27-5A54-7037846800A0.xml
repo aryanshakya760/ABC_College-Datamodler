@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="M_Code_FK" directorySegmentName="seg_0" id="F4E1389C-FB9A-9D27-5A54-7037846800A0">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-17 19:13:38 UTC</createdTime>
+<generatorID>4DB0E7CB-8E16-E5DC-AF37-654B0B7802F0</generatorID>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<engineerTo>
+<item key="C5BF6E2E-685F-CE61-9EE3-73BCF3C41368" value="true"/>
+</engineerTo>
+<sourcePk>DF225F1E-D3F0-4D42-BB44-71A6CB13053A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7F63E87-2348-2A00-1C75-ACAC194664D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7CF2103E-C71E-96D4-1543-D90724B42C95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6F23724-0BC6-4AD1-CB7B-ED8C94444F3B" name="Address">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 10:01:26 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Add_ID" id="4622A84B-6059-AE19-24D4-60EF540AD8F2">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 10:04:33 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Add_Name" id="6B680AE5-768B-74D4-7185-6ADBF38F316C">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 10:04:33 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_ID" id="82A09328-A6FD-5000-1F43-B79D8E0D6A10">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 10:04:33 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="097C47C3-7E91-ACC9-6C1B-A6FDCDD22EA2" referredColumn="55497C7A-9AF6-5DE8-6EFF-583192B4FE36"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB19335B-67F5-49AD-A69C-4A5218C6A98C" name="Address_PK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 10:04:33 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4622A84B-6059-AE19-24D4-60EF540AD8F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A82A5317-5E8D-7F69-D01A-FEB928B3FFDB" name="Teacher_ID">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 10:06:57 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82A09328-A6FD-5000-1F43-B79D8E0D6A10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

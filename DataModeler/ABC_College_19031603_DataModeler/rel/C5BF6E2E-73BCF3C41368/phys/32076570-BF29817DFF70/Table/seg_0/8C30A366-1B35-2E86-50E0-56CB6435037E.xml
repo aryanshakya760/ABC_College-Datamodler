@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Module" directorySegmentName="seg_0" id="8C30A366-1B35-2E86-50E0-56CB6435037E">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="M_Code" id="8C86ADC5-D28A-5C4A-57A5-C1CDBE877AB4">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="C_Hours" id="D95E2167-5F39-BDF0-CF52-DD2C5DE8D9C9">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="M_Name" id="F743EDCB-9240-B22F-13FA-C43D5B0E75E4">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Module_PK" id="92E13E01-F6FC-9B38-81DB-EDCD744F712A">
+<createdBy>saaru</createdBy>
+<createdTime>2022-03-23 04:59:05 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D81FAD9-8181-37CF-5039-26BE4C2087F5" name="Teacher_Department">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-16 17:30:07 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Depart_ID" id="C32B70E9-089D-30DE-D43D-EADA438DE38B">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-16 17:30:59 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="276A5B11-6B94-587B-8BB0-51E931B9C137" referredColumn="B72C70DB-1893-83E4-414C-38181652AFF7"/>
+</associations>
+</Column>
+<Column name="T_ID" id="A72D9682-DE82-2219-C135-1CC1B9D65031">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-16 17:30:59 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F86D226-2843-D904-4B16-ACAF380BEE20" referredColumn="55497C7A-9AF6-5DE8-6EFF-583192B4FE36"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54A0565C-56A9-A28F-9757-C4018EC0CEE0" name="Department_Teacher_PK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-17 13:22:46 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C32B70E9-089D-30DE-D43D-EADA438DE38B"/>
+<colUsage columnID="A72D9682-DE82-2219-C135-1CC1B9D65031"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3C27643-46F5-DB1C-ABD0-56B27627E344" name="Department_FK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-16 17:31:40 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C32B70E9-089D-30DE-D43D-EADA438DE38B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8CE1476-DF99-3F57-99EC-33E4E6E388DC" name="Teacher_Id_FK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-16 17:31:40 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A72D9682-DE82-2219-C135-1CC1B9D65031"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

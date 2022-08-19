@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46DBEA8E-7C62-62F2-86E6-2A53311A51AB" name="Student_Payment">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 09:10:45 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pay_ID" id="291B2FE5-0B92-2CA8-E162-F26CAEC6877F">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 09:11:35 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFB0F52A-39CE-817C-4F19-59F1FF81BA8F" referredColumn="EA7F566A-9EC2-405D-70FF-125ECDDBE6BA"/>
+</associations>
+</Column>
+<Column name="S_ID" id="93BE24C0-5D40-DA05-C33C-0F18E1A6ADE7">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 09:11:35 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="404366CD-1820-4526-A16E-CBB78052DBD3" referredColumn="A172F44D-64A1-8E72-1438-D3F0B585D935"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99553D56-C64C-D7F8-46F6-5758F7669777" name="Student_Payment_PK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-17 13:25:06 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="291B2FE5-0B92-2CA8-E162-F26CAEC6877F"/>
+<colUsage columnID="93BE24C0-5D40-DA05-C33C-0F18E1A6ADE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="416CEBFA-6970-D9C1-34B2-6CEC0474658D" name="Payment_ID_FK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 09:12:28 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="291B2FE5-0B92-2CA8-E162-F26CAEC6877F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5218522-2703-8902-DBDA-78845DEDB0B9" name="Student_ID_FK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 09:12:28 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93BE24C0-5D40-DA05-C33C-0F18E1A6ADE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

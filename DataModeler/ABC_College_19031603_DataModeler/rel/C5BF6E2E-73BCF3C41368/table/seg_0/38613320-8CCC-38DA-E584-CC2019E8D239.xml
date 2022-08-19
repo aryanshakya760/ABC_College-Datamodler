@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38613320-8CCC-38DA-E584-CC2019E8D239" name="Student_Module">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:50:17 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="M_Code" id="4597F2C1-2277-5AB7-0E24-49502EC4748A">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:54:02 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20744980-A06C-D53D-5404-570288BEAE54" referredColumn="8C86ADC5-D28A-5C4A-57A5-C1CDBE877AB4"/>
+</associations>
+</Column>
+<Column name="S_ID" id="A34E3CFC-C8BE-2A3B-75F2-D4109F469539">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:54:02 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00546192-24C1-266D-8330-7CB31C4568A5" referredColumn="A172F44D-64A1-8E72-1438-D3F0B585D935"/>
+</associations>
+</Column>
+<Column name="Attendance" id="9680F498-124A-984C-00F7-ADE945B91FE6">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:54:02 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="128CBA4D-3750-8A6B-9FC6-C2E10B6E8DE4" name="Student_Module_PK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-17 13:24:29 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4597F2C1-2277-5AB7-0E24-49502EC4748A"/>
+<colUsage columnID="A34E3CFC-C8BE-2A3B-75F2-D4109F469539"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EB03C69-8A6E-6752-C0E9-318995506802" name="Module_FK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:54:54 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4597F2C1-2277-5AB7-0E24-49502EC4748A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28B20C7B-DF8C-5A32-42FD-0848EE923F05" name="Student_FK">
+<createdBy>97798</createdBy>
+<createdTime>2022-03-15 07:54:54 UTC</createdTime>
+<ownerDesignName>ABC_College_19031603_DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A34E3CFC-C8BE-2A3B-75F2-D4109F469539"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
